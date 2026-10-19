@@ -66,7 +66,7 @@ Siga os passos abaixo para rodar a aplicação localmente:
 
    ```
    npm run dev   
-**Acesse a aplicação no navegador:**
+**Acesse a aplicação no navegador:** https://jungle-gaming-five.vercel.app
 
 ## 📌 Considerações Finais
 
