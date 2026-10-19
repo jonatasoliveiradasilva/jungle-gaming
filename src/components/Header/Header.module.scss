@@ -1,0 +1,70 @@
+.cabecalho {
+
+    align-items: center;
+    background-color: #140D0A;
+    border-bottom: 1px solid #D28A4C;
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+
+    .logo {
+        
+        height: 20px;
+        width: 50px;
+    }
+
+    .navegacao ul {
+
+        display: flex;
+        gap: 40px;
+        list-style-type: none;
+        justify-content: space-between;
+        width: 400px;
+
+        li .destaque {
+
+            color: #E89B55;
+        }
+
+        li a {
+
+            color: #F5F1EB;
+            font-family: "Roboto Mono", monospace;
+            text-decoration: none;
+        }
+    }
+}
+
+.acoes {
+
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+
+    .lupa,
+    .carrinho {
+
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .login {
+
+        align-items: center;
+        background-color: #D28A4C;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        display: flex;
+        gap: 3px;
+        padding: 7px 9px;
+
+        span {
+
+            color: #140D0A;
+            font-family: "Roboto Mono", monospace;
+            font-weight: 500;
+        }
+    }
+}
