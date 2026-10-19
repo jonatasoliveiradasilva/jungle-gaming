@@ -1,0 +1,61 @@
+.conteudo {
+
+    align-items: center;
+    display: flex;
+    gap: 110px;
+
+    .informacoes {
+
+        margin: 43px 0 0 40px;
+
+        .subtitulo {
+
+            color: #F5F1EB;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .titulo {
+            
+            color: #F5F1EB;
+            font-size: 43px;
+            font-weight: bold;
+            margin: 24px 0;
+            text-transform: uppercase;
+        }
+
+        .descricao {
+
+            color: #CFB28C;
+            font-size: 14px;
+            width: 560px;
+        }
+
+        .subtitulo,
+        .titulo,
+        .descricao {
+
+            font-family: "Roboto Mono", monospace;
+        }
+
+        .botao {
+
+            background-color: #D28A4C;
+            border: none;
+            border-radius: 6px;
+            color: #140D0A;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 32px 0;
+            padding: 10px 25px;
+            text-transform: uppercase;
+        }
+
+    }
+
+    .macaco .ilustracao {
+
+        margin: 32px 0 0 0;
+    }
+}
